@@ -12,10 +12,6 @@ terraform {
 }
 
 
-provider "ibm" {
-}
-
-
 resource "random_id" "name1" {
   byte_length = 2
 }
