@@ -21,8 +21,3 @@ resource "random_id" "name1" {
 }
 
 
-resource "ibm_is_vpc" "vpc1" {
-  name = "vpc-${random_id.name1.hex}"
-}
-
-
